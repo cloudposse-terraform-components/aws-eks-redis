@@ -9,7 +9,6 @@ tags:
 # Component: `eks-redis`
 
 This component installs `redis` for EKS clusters. This is a Self Hosted Redis Cluster installed on EKS.
-
 ## Usage
 
 **Stack Level**: Regional
@@ -77,7 +76,10 @@ components:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -165,12 +167,17 @@ components:
 | Name | Description |
 |------|-------------|
 | <a name="output_metadata"></a> [metadata](#output\_metadata) | Block status of the deployed release |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/eks/redis) -
-  Cloud Posse's upstream component
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-eks-redis&utm_content=)
+
